@@ -1,0 +1,30 @@
+/* selctor{
+  property-name: value;
+} */
+
+h1 {
+  font-style: 100px;
+  text-decoration: underline;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 13px
+  color: rgba(100, 180, 76)
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-style: 24px;
+  margin-bottom: 24;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+a {
+  color: rebeccapurple;
+  text-decoration: none;
+}
