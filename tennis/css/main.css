@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: pink
+}
+div{
+  float:left;
+
+}
+.ins, .serve, .side{
+  background-color: pink;
+  border: 4px solid white;
+}
+#court {
+  width: 400px;
+    margin: calc(100vh - 600)
+
+
+}
+
+.middle{
+  width: 250px;
+}
+
+.ins{
+width: 125px;
+height: 500px;
+}
+
+.serve{
+  width:250px;
+  height:100px;
+}
+.side{
+  width: 75px;
+  height: 300px;
+}
