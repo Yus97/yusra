@@ -1,0 +1,40 @@
+body *{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+body{
+  background:#ff9;
+}
+.controll{
+  transform:rotate(20deg);
+  left:120px;
+  bottom:6em;
+}
+.ball {
+
+  background: #fff;
+  border-radius:50%;
+}
+.decor1{
+  background:rgba(0,0,0,0);
+  left:-13px;
+  border-radius:50%;
+  box-shadow:10px 10px 0px #ff6666;
+  transform:rotate(-45deg);
+}
+.decor2{
+  background:rgba(0,0,0,0);
+  left:28px;
+  border-radius:50%;
+  box-shadow:20px 20px 0px #bada55;
+  transform:rotate(-226deg);
+}
+.water{
+  margin:0 auto;
+  background:blue;
+  width:100%;
+  bottom:0;
+  left:0;
+}

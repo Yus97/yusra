@@ -3,33 +3,33 @@
 }
 
 body{
-  background-color: green
+  background-color: green;
 }
 div{
-  float:right;
+
 
 }
 
 .ins, .top, .middle, .bottom{
   background-color: lightblue;
   border: 4px solid white;
+  float: left;
 }
 
 #grid {
-  width: 400px;
-  margin: calc(100vh - 600px)
-}
+  width: 600px;
+  margin: 100px auto;
 
-.whole{
-  width: 222px;
 }
 .middle{
-  width: 250px;
+  width: 600px;
+  height: 50px;
 }
 
 .ins{
-width: 199px;
+width: 200px;
 height: 400px;
+
 }
 
 .bottom{
