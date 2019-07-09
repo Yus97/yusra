@@ -1,0 +1,40 @@
+head{
+  font-style: italic;
+  font-size: 24
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-style: 50px;
+  margin-bottom: 24;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
+
+/* selected link */
+a:active {
+  color: lightblue;
+}
