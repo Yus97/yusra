@@ -25,6 +25,7 @@ li {
   font-weight: bold;
   font-family: sans-serif;
 }
+
 a {
   color: blue;
   text-decoration: none;
@@ -47,4 +48,11 @@ a:hover {
 /* selected link */
 a:active {
   color: lightblue;
+}
+
+
+body {
+  background-color: black;
+text-align: center;
+margin: 100px auto;
 }
