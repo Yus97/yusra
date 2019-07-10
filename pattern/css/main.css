@@ -1,0 +1,46 @@
+body {
+  /* clears default margins */
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+/* # references an ID */
+#main-container {
+  width: 120vw;
+  margin: -50px -5vw;
+}
+/* . references a class */
+.piece1,
+.piece2,
+.piece3,
+.piece4 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: -10px;
+  opacity: .6;
+  /* border-radius: 50%; */
+  /* border: 10px solid white; */
+}
+.piece1 {
+  width: 0;
+  height: 0;
+  transform: rotate(90deg);
+  /* Below makes a triangle */
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 300px solid cyan;
+
+}
+.piece2 {
+  background-color: magenta;
+  transform: rotate(55deg);
+}
+.piece3 {
+  background-color: LIGHTGREEN;
+  transform: rotate(55deg);
+}
+.piece4 {
+  background-color: hotpink;
+  transform: rotate(55deg);
+}
