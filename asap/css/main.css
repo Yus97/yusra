@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  margin: 100px auto;
+}
+div {
+  /* background-color: blue; */
+  width: 50vw;
+ text-align: center;
+
+}
+h1{
+    font-family: 'Just Another Hand', cursive;
+  font-family:'Trajan Color',concept;
+  font-style: normal;
+  font-size: 50
+  color: white;
+}
+h2{
+  color: white;
+  font-size: normal;
+}
+
+p{
+  color: white;
+ text-align: justify;
+ margin: 100px auto;
+ font-size: 2em;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-style: 100px;
+  margin-bottom: 24;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:link {
+  color: hotpink;
+}
