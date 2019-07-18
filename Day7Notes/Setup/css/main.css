@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+}
+#main-container{
+  width:200px;
+  background-color: grey;
+  margin-left: 10px 70px 5
+  0px 90px;
+}
+
+
+div {
+  width: 1500px;
+  height: 200px;
+  right: 200px
+  left: 100px
+}
+.piece1{
+  background-color: dodgerblue;
+  width: 200px;
+  height:300px;
+  transform: rotate(17deg);
+  border-left: 200px solid
+  transparent;
+  border-bottom: 200px solid cyan;
+
+}
+.piece2{
+  background-color: tomato;
+  width: 200px;
+  height:300px;
+  transform: rotate(17deg);
+  border-left: 200px solid
+  transparent;
+  border-bottom: 200px solid cyan;
+}
+.piece3{
+  background-color:green ;
+  width: 200px;
+  height:300px;
+  transform: rotate(17deg);
+  border-left: 200px solid
+  transparent;
+  border-bottom: 200px solid cyan;
+}
+.piece4{
+  background-color: pink;
+
+}

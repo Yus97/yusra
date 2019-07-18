@@ -1,49 +1,89 @@
 body {
   background-color: black;
-  margin: 100px auto;
+  font-family: sans-serif;
 }
-div {
+#container {
   /* background-color: blue; */
-  width: 50vw;
- text-align: center;
+  width: 100vw;
 
 }
+.maincontent{
+  width:50vw;
+  margin: 100px auto;
+  text-align: center;
+}
+
 h1{
-    font-family: 'Just Another Hand', cursive;
-  font-family:'Trajan Color',concept;
+  font-family: 'Playfair Display SC', serif;
   font-style: normal;
-  font-size: 50
-  color: white;
+  font-size: 100px;
+  color: gold;
+  text-align: center;
+  text-transform: uppercase;
 }
 h2{
   color: white;
-  font-size: normal;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Fugaz One', cursive;
+  font-family: 'Michroma', sans-serif;
 }
 
 p{
-  color: white;
- text-align: justify;
- margin: 100px auto;
- font-size: 2em;
+  color: gold;
+ font-size: 1.6em;
+ line-height: 1.6em;
+ text-align: left;
+ letter-spacing: .1em;
+ font-family: 'Playfair Display SC', serif;
+  font-family: 'Fugaz One', cursive;
+  font-family: 'Michroma', sans-serif;
 }
 ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 li {
-  font-style: 100px;
-  margin-bottom: 24;
+  margin-bottom: 24px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: sans-serif;
+  font-size: 30px;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Fugaz One', cursive;
+  font-family: 'Michroma', sans-serif;
 }
+img{
+  width: 100%;
+   text-align: center;
+}
+iframe{
+
+}
+
 a {
-  color: blue;
+  color: gold;
   text-decoration: none;
 }
 
 a:link {
-  color: hotpink;
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: gold;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: lightblue;
 }
