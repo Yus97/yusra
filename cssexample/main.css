@@ -15,7 +15,10 @@ h1 {
   color: purple;
 
 }
-
+iframe {
+  width: 100%;
+  float: left;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -55,4 +58,4 @@ a:active {
 }
 
 
-rgba(100, 180, 76)
+/* rgba(100, 180, 76) */
